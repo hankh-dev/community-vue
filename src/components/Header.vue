@@ -1,27 +1,16 @@
 <!-- community-vue/src/components/Header.vue -->
 <template>
-  <header class="header">
-    <h1>커뮤니티 사이트</h1>
-    <nav>
-      <router-link to="/">홈</router-link>
-      <router-link to="/qa">Q&A</router-link>
-      <router-link to="/community">커뮤니티</router-link>
-    </nav>
-  </header>
+  <v-app-bar app color="primary" dark>
+    <v-toolbar-title>커뮤니티 사이트</v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-btn text to="/">홈</v-btn>
+    <v-btn text to="/qa">Q&A</v-btn>
+    <v-btn text to="/community">커뮤니티</v-btn>
+  </v-app-bar>
 </template>
 
-<style scoped>
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px;
-  background-color: #f8f9fa;
-}
+<script setup>
+</script>
 
-nav a {
-  margin: 0 12px;
-  text-decoration: none;
-  color: #333;
-}
+<style scoped>
 </style>

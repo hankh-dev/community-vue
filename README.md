@@ -1,6 +1,6 @@
 # Community Vue
 
-이 프로젝트는 Vue3로 구축된 커뮤니티 웹사이트입니다. LLM(ChatGPT, Claude)을 이용하여 작성하였습니다.
+이 프로젝트는 Vue3로 구축된 커뮤니티 웹사이트입니다. LLM(ChatGPT, Claude 등)과 Cursor AI를 이용하여 작성하였습니다.
 
 ## 배포된 URL
 

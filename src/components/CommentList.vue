@@ -9,9 +9,19 @@
       </ul>
       <div class="comment-form">
         <h4>댓글 작성하기</h4>
-        <input v-model="newCommentAuthor" placeholder="이름을 입력하세요." />
-        <textarea v-model="newCommentContent" placeholder="댓글을 입력하세요."></textarea>
-        <button @click="addComment">등록</button>
+        <v-text-field
+          v-model="newCommentAuthor"
+          label="이름을 입력하세요."
+          outlined
+          dense
+        />
+        <v-textarea
+          v-model="newCommentContent"
+          label="댓글을 입력하세요."
+          outlined
+          dense
+        ></v-textarea>
+        <v-btn @click="addComment" color="primary">등록</v-btn>
       </div>
     </div>
   </template>

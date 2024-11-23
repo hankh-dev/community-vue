@@ -1,12 +1,12 @@
 <!-- community-vue/src/App.vue -->
 <template>
-  <div id="app">
+  <v-app>
     <Header />
-    <main>
+    <v-main>
       <router-view />
-    </main>
+    </v-main>
     <Footer />
-  </div>
+  </v-app>
 </template>
 
 <script setup>
@@ -15,9 +15,8 @@ import Footer from './components/Footer.vue';
 </script>
 
 <style>
-/* 전역 스타일을 여기에 추가할 수 있습니다. */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
 }
 </style>

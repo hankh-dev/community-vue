@@ -1,18 +1,15 @@
 <!-- community-vue/src/components/Footer.vue -->
 <template>
-    <footer class="footer">
-      <p>&copy; 2023 커뮤니티 사이트</p>
-    </footer>
-  </template>
-  
-  <style scoped>
-  .footer {
-    text-align: center;
-    padding: 16px;
-    background-color: #f8f9fa;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  </style>
+  <v-footer app color="primary" dark>
+    <v-col class="text-center">
+      &copy; 2023 커뮤니티 사이트
+    </v-col>
+  </v-footer>
+</template>
+
+<script setup>
+</script>
+
+<style scoped>
+</style>
   
